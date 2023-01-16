@@ -32,8 +32,8 @@ describe('visual validation', () => {
 
     cy.eyesCheckWindow('two todos')
     
-    // todoPage.toggleTodo(0)
+    todoPage.toggleTodo(0)
     
-    // cy.eyesCheckWindow('mark as completed')
+    cy.eyesCheckWindow('mark as completed')
   })
 })
